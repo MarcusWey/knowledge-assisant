@@ -1,0 +1,57 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+# Env files
+.env
+.env.* 
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+# Type checkers
+.mypy_cache/
+.pyre/
+# IDEs & editors
+.vscode/
+.idea/
+# Jupyter
+.ipynb_checkpoints/
+
+# ======================
+# ChromaDB persistence
+# ======================
+backend/db/
+
+# ======================
+# Node / Next.js
+# ======================
+node_modules/
+.next/
+out/
+dist/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db

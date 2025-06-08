@@ -1,0 +1,20 @@
+/* Floating background bubbles */
+.bubble {
+  position: absolute;
+  background-color: rgba(164, 247, 208, 0.4);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: float 10s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,100%   { transform: translateY(0) translateX(0) scale(1); }
+  50%       { transform: translateY(-20px) translateX(20px) scale(1.1); }
+}
+
+/* Position 5 example bubbles */
+.b1 { width: 200px; height:200px; top: 10%; left: 5%; }
+.b2 { width: 100px; height:100px; top: 20%; right: 10%; }
+.b3 { width: 150px; height:150px; bottom: 15%; left: 20%; }
+.b4 { width: 80px; height:80px; bottom: 30%; right: 25%; }
+.b5 { width: 120px; height:120px; top: 50%; left: 50%; }
